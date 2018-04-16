@@ -55,6 +55,7 @@ target4.editor.x=-8
 target4.editor.y=-8
 target4.height=50
 target4.name=PalindromeTester
+target4.naviview.expanded=false
 target4.showInterface=false
 target4.type=ClassTarget
 target4.typeParameters=

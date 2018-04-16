@@ -14,7 +14,9 @@ public class PalindromeTester
     {
       int counter =ezpz.length();
         if (ezpz.length()==1)
-    {}
+            {return true;}
+        else
+           
     return false;
     }
 
