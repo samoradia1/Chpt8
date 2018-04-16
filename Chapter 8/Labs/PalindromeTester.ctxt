@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=Args
+comment0.target=void\ main(java.lang.String[])
+comment0.text=\r\n\ Default\ constructor\ for\ objects\ of\ class\ PalindromeTester\r\n
+comment1.params=ezpz
+comment1.target=boolean\ pal(java.lang.String)
+numComments=2
