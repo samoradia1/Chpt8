@@ -6,18 +6,39 @@ public class PalindromeTester
      */
     public static void main(String Args[])
     {
-        
+        System.out.print(pal("wowowowowowow"));
     }
 
     
-    public boolean pal(String ezpz)
+    public static boolean pal(String ezpz)
     {
-      int counter =ezpz.length();
-        if (ezpz.length()==1)
-            {return true;}
+
+        if (ezpz.length()==1 || ezpz.length() ==2)
+            {
+                if (ezpz.length()==1)
+                {
+                    return true;
+                }
+                else
+                {
+                    if (ezpz.charAt(0)==ezpz.charAt(1))
+                    {
+                        return true; 
+                    }
+                    else 
+                        return false;
+                }
+            }
         else
-           
-    return false;
+        {
+                if (ezpz.charAt(0) == ezpz.charAt(ezpz.length()-1))
+                {
+                        
+                            return pal(ezpz.substring(1,ezpz.length()-1));
+                 }
+                 return false;
+        }
+                
     }
 
 }
