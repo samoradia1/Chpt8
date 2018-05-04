@@ -7,7 +7,8 @@ public class GCD
     private int x;
     public static void main(String Args[])
     {
-       System.out.print(gcd(10,5));
+       System.out.println(gcd(10,5));
+       System.out.println(gcd(9,4));
     }
     public static int gcd(int num1, int num2)
     {

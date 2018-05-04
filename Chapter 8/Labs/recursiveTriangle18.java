@@ -43,11 +43,11 @@ public class recursiveTriangle18 extends JApplet
    public void Triangle(int[] xPos, int[] yPos, Graphics page)
    {
        //Find the distance between 2 points ex. - x,y & x1,y1
-           double distance = Math.sqrt((Math.pow(xPos[0]-xPos[1],2)+Math.pow(yPos[0]-yPos[1],2)));
+           int distance = (int)Math.sqrt((Math.pow((double)xPos[0]-(double)xPos[1],2)+Math.pow((double)yPos[0]-(double)yPos[1],2)));
 
 
         //if the segment/distance is 30 or so, good length to stop
-       if(distance>30)
+       if(distance>10)
        {
            
            //find midpoints of segments

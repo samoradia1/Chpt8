@@ -6,7 +6,9 @@ public class PalindromeTester
      */
     public static void main(String Args[])
     {
-        System.out.print(pal("wowowowowowow"));
+        System.out.println(pal("Saagar"));
+        System.out.println(pal("racecar"));
+        
     }
 
     
